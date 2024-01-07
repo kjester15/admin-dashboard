@@ -21,11 +21,11 @@ body {
 }
 
 .header-top {
-    grid-template-columns: 5fr 2fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 .header-bottom {
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 5fr 2fr;
 }
 
 .header-top, .header-bottom {
@@ -43,6 +43,9 @@ body {
 
 .profile-summary-pic {
     justify-self: center;
+    width: 55px;
+    background: none;
+    border: none;
 }
 
 .profile-summary-pic, .profile-container-right {
@@ -58,9 +61,11 @@ body {
 
 .action-buttons button {
     background-color: rgb(71, 142, 255);
-    border-radius: 10px;
+    border-radius: 30px;
     border: none;
     color: white;
+    width: 90px;
+    font-size: 14px;
 }
 
 .search-container, .settings-container {
@@ -77,6 +82,18 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     place-content: center;
     place-items: center;
+}
+
+.notifications {
+    width: 25px;
+    border: none;
+    background: none;
+}
+
+.pfp {
+    width: 40px;
+    border: none;
+    background: none;
 }
 
 .sidebar {
@@ -170,7 +187,8 @@ body {
 
 .card-buttons button {
     width: 20px;
-
+    background: none;
+    border: none;
 }
 
 .content-feed {
@@ -211,6 +229,12 @@ body {
     background-color: antiquewhite;
     margin: 10px;
     align-items: center;
+}
+
+.account-container button {
+    background: none;
+    border: none;
+    width: 40px;
 }
 
 .account-pic {
