@@ -16,6 +16,60 @@ body {
 
 .header {
     background-color: rgb(255, 255, 243);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header-top {
+    grid-template-columns: 5fr 2fr;
+}
+
+.header-bottom {
+    grid-template-columns: 3fr 2fr;
+}
+
+.header-top, .header-bottom {
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 10px;
+    display: grid;
+}
+
+.profile-summary {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    align-items: center;
+}
+
+.profile-summary-pic {
+    justify-self: center;
+}
+
+.profile-summary-pic, .profile-container-right {
+    background-color: aliceblue;
+}
+
+.action-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+.search-container, .settings-container {
+    background-color: aliceblue;
+    margin: 5px;
+    display: grid;
+}
+
+.search-container {
+    grid-template-columns: 1fr 20fr;
+}
+
+.settings-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: center;
+    place-items: center;
 }
 
 .sidebar {
